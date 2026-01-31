@@ -1,0 +1,49 @@
+{
+  "schoolName": "Unidad Educativa Municipal Edgar Vicente Garrido Jaramillo",
+  "tagline": "Educar con amor y libertad",
+  "yearFounded": 1998,
+  "phone": "72652003",
+  "email": "garridoedgar004@gmail.com",
+  "address": "Barrio Tierras Coloradas (Av. Eugenio Espejo entre Santa Rosa de Lima y Santa Narcisa de Jesús / Km 7 1/2 vía antigua a Catamayo), Loja - Ecuador",
+  "hours": "Matutino: 7H15 a 12H30",
+  "facebook": "Eebm Edgar Garrido",
+  "director": {
+    "name": "Mgs. Floriselva de Jesús Jimenez Sanchez",
+    "email": "floriselvaj@gmail.com",
+    "phone": "969398562"
+  },
+  "stats": {
+    "students": 158,
+    "teachers": 14
+  },
+  "education": {
+    "levels": [
+      "Inicial II",
+      "Preparatoria",
+      "Elemental",
+      "Básica Media (hasta 7mo EGB)"
+    ],
+    "methodology": "Constructivista",
+    "complementaryAreas": [
+      "Educación Cultural y Artística",
+      "Computación",
+      "Inglés",
+      "Educación Física",
+      "Psicóloga DECE"
+    ]
+  },
+  "admissions": {
+    "ageRequirement": "4 años cumplidos hasta diciembre",
+    "requirements": [
+      "3 fotos tamaño carnet",
+      "Certificado médico y visual",
+      "Comprobante de pago (matrícula y pensión)",
+      "Carta de compromiso",
+      "Autorización de salida de estudiantes",
+      "Autorización de retiro de estudiantes",
+      "Ficha socioeconómica",
+      "Ficha del DECE"
+    ]
+  },
+  "mapIframeSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.4932820319145!2d-79.24258695869811!3d-4.0136019266517895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cb37cc6fdacd95%3A0x9067a70df04a086c!2sTierras%20Coloradas!5e0!3m2!1ses-419!2sec!4v1769886581436!5m2!1ses-419!2sec"
+}
