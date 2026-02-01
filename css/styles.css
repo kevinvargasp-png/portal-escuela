@@ -254,3 +254,55 @@ footer{
   .gallery{ grid-template-columns:1fr; }
   .gallery img{ height:240px; }
 }
+/* ===== Menú hamburguesa (móvil) ===== */
+.hamburger{
+    display:none;
+    width:46px;
+    height:42px;
+    border-radius:14px;
+    border:1px solid rgba(255,255,255,.12);
+    background: rgba(255,255,255,.06);
+    cursor:pointer;
+    align-items:center;
+    justify-content:center;
+    gap:5px;
+    padding:10px;
+  }
+  .hamburger span{
+    display:block;
+    width:18px;
+    height:2px;
+    background:#cfe0ff;
+    border-radius:2px;
+    opacity:.95;
+  }
+  
+  /* En móvil: ocultamos menú normal y mostramos hamburguesa */
+  @media(max-width: 900px){
+    .hamburger{ display:flex; }
+  
+    .menu{
+      display:none;              /* oculto por defecto */
+      position:absolute;
+      top:70px;
+      right:18px;
+      left:18px;
+      flex-direction:column;
+      gap:10px;
+      padding:14px;
+      border-radius:18px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(7,12,24,.92);
+      backdrop-filter: blur(10px);
+    }
+  
+    .menu.open{ display:flex; }
+  
+    .menu a{
+      padding:12px 12px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.04);
+    }
+  }
+  
